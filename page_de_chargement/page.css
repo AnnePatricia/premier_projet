@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    background: #eee;
+    justify-content: center;
+    align-items: center;
+    animation: loader 10s linear infinite;
+    
+}
+
+@keyframes loader{
+    0%{
+        -webkit-transform: rotate(0deg) ;
+        
+    }
+    100%{
+        -webkit-transform: rotate(360deg) ;
+    }
+}
